@@ -17,9 +17,7 @@ Boot.test(y, kvec, nboot, indicator)
   \item{nboot}{ the number of bootstrap iterations }
   \item{indicator}{ 1 for iid bootstrap, 2 for wild bootstrap}
 }
-\details{
-  
-}
+
 \value{
   
   \item{Holding.Period }{holding periods used}
@@ -36,7 +34,7 @@ indicator = 2, the p-values for M2 and CD2 tests based on wild bootstrap
 }
 \seealso{  }
 \examples{
-y <- as.matrix(rnorm(100))
+y <- rnorm(100)
 kvec <- c(2,5,10)
 Boot.test(y,kvec,nboot=1000,indicator=2)
 }

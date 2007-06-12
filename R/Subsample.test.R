@@ -1,6 +1,7 @@
 `Subsample.test` <-
 function(y,kvec)
 {
+    y <- as.matrix(y)
     n <- nrow(y)
     b1 <- as.integer(2.5*n^(0.3))
     b2 <- as.integer(3.5*n^(0.6))

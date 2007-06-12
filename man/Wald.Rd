@@ -25,7 +25,7 @@ Wald(y, kvec)
 \author{ Jae H. Kim }
 \note{ The statistic asymptotically follows the chi-squared distribution with the degrees of freedom same as the number of holding periods used}
 \examples{
-y <- as.matrix(rnorm(100))
+y <- rnorm(100)
 kvec <- c(2,5,10)
 Wald(y,kvec) 
 }

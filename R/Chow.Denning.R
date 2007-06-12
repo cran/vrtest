@@ -1,6 +1,7 @@
 `Chow.Denning` <-
 function(y,kvec)
 {
+    y <- as.matrix(y)
     n <- nrow(y)
     mq <- matrix(NA, nrow=length(kvec), ncol=2)
     for (i in 1:length(kvec))

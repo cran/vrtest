@@ -29,7 +29,7 @@ Wright(y, kvec)
 
 
 \examples{
-y <- as.matrix(rnorm(100))
+y <- rnorm(100)
 kvec <- c(2,5,10)
 Wright(y,kvec) 
 }

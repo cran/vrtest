@@ -28,7 +28,7 @@ Kim, J. H. and Shamsuddin, A., Are Asian Stock Markets Efficient? Evidence from 
 }
 \author{Jae H. Kim}
 \examples{
-y <- as.matrix(rnorm(100))
+y <- rnorm(100)
 kvec <- c(2,5,10)
 Joint.Wright(y,kvec) 
 }

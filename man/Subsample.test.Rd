@@ -28,7 +28,7 @@ Subsample.test(y, kvec)
 \author{ Jae H. Kim }
 
 \examples{
-y <- as.matrix(rnorm(100))
+y <- rnorm(100)
 kvec <- c(2,5,10)
 Subsample.test(y,kvec)
 }

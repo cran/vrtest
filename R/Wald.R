@@ -1,6 +1,7 @@
 `Wald` <-
 function(y,kvec)
 {
+    y <- as.matrix(y)
     n <- nrow(y)
     mvr <- matrix(NA, nrow=length(kvec), ncol=1)
     for (i in 1:length(kvec))

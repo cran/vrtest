@@ -1,6 +1,7 @@
 `stat` <-
 function(x,k)
 {
+    y <- as.matrix(x)
     n <- nrow(x)
     index <- 1:k
     summ <- 0

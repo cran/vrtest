@@ -35,7 +35,7 @@ See Chow and Denning (1993) for the details of critical value calculation
 
 
 \examples{
-y <- as.matrix(rnorm(100))
+y <- rnorm(100)
 kvec <- c(2,5,10)
 Chow.Denning(y,kvec) 
 }

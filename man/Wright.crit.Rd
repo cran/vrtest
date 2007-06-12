@@ -25,7 +25,6 @@ Wright.crit(n, k, nit)
 \author{ Jae H. Kim }
 
 \examples{
-y <- as.matrix(rnorm(100))
-Wright.crit(n=nrow(y),k=2,nit=10000)  
+Wright.crit(n=100,k=2,nit=10000)  
 }
 \keyword{  htest  }

@@ -1,6 +1,7 @@
 `Wright` <-
 function(y,kvec)
 {
+    y <- as.matrix(y)
     n <- nrow(y)
     W_mat <- matrix(NA, nrow=length(kvec), ncol=3)
     for (i in 1:length(kvec))

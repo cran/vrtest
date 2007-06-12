@@ -1,6 +1,7 @@
 `LM_stat` <-
 function(y,k)
 {
+    y <- as.matrix(y)
     n <- nrow(y) 
     m <- mean(y)
     vr1 <- sum( (y-m)^2 )/n

@@ -1,6 +1,7 @@
 `Wright_stat` <-
 function(y,k) 
 {
+    y <- as.matrix(y)
     n <- nrow(y)
     ranking <- as.matrix(rank(y))
     r1 <- (ranking - 0.5*(n+1) )/sqrt((n-1)*(n+1)/12)

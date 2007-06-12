@@ -2,6 +2,7 @@
 function(y,kvec,nboot,indicator)
 {
     set.seed(12345)
+    y <- as.matrix(y)
     LC <- LMCD(y,kvec)
     
     statmat <- matrix(NA, nrow=nboot, ncol=length(kvec)+1)
