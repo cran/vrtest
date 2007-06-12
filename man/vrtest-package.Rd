@@ -12,8 +12,8 @@ A collection of the R functions for variance ratio tests
 \tabular{ll}{
 Package: \tab vrtest\cr
 Type: \tab Package\cr
-Version: \tab 0.5\cr
-Date: \tab 2007-06-05\cr
+Version: \tab 0.6\cr
+Date: \tab 2007-06-12\cr
 License: \tab GPL version 2 or newer\cr
 }
 

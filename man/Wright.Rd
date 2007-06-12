@@ -25,7 +25,7 @@ Wright(y, kvec)
 }
 \references{ WRIGHT,J.H.,2000,Alternative Variance-Ratio Tests Using Ranks and Signs, Journal of Business & Economic Statistics, 18, 1-9.
 }
-\author{ jae H. Kim }
+\author{ Jae H. Kim }
 
 
 \examples{

@@ -5,7 +5,7 @@
 \description{
   The function returns M1 and M2 statistics of Lo and MacKinlay (1998).
 
-  M1 tests for iid series and M2 for uncorrelated series with possible heteroskedasticity.
+  M1: tests for iid series; M2: for uncorrelated series with possible heteroskedasticity.
 }
 \usage{
 Lo.Mac(y, kvec)
@@ -15,9 +15,7 @@ Lo.Mac(y, kvec)
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }
 }
-\details{
- 
-}
+
 \value{
   
   \item{Holding.Periods }{holding periods used}

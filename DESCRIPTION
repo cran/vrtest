@@ -1,10 +1,10 @@
 Package: vrtest
 Type: Package
 Title: Variance Ratio tests for Weak-form Market Efficiency
-Version: 0.5
-Date: 2007-06-05
+Version: 0.6
+Date: 2007-06-12
 Author: Jae H. Kim
 Maintainer: Jae H. Kim <jae.Kim@buseco.monash.edu.au>
-Description: A collection of variance ratio test
+Description: A collection of variance ratio tests
 License: GPL version 2 or newer
-Packaged: Tue Jun  5 22:47:25 2007; jaekim
+Packaged: Tue Jun 12 21:20:28 2007; jaekim

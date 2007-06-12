@@ -5,7 +5,7 @@
 \description{
   This function returns Chow-Denning test statistics.
 
-  CD1 tests for iid series and CD2 for uncorrelated series with possible heteroskedasticity.
+  CD1: test for iid series; CD2: test for uncorrelated series with possible heteroskedasticity.
 }
 \usage{
 Chow.Denning(y, kvec)
@@ -15,9 +15,7 @@ Chow.Denning(y, kvec)
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }
 }
-\details{
-  
-}
+
 
 \value{
   
@@ -25,6 +23,11 @@ Chow.Denning(y, kvec)
   \item{CD1 }{CD1 statistic}
   \item{CD2 }{CD2 statistic}
   \item{Critical.Values_10_5_1_percent }{10 5 1 percent critical values}
+}
+
+\note{
+
+See Chow and Denning (1993) for the details of critical value calculation
 }
 
 \references{ Chow,K. V., K. C. DENNING, 1993, A Simple Multiple Variance Ratio Test, Journal of Econometrics, 58, 385-401. }

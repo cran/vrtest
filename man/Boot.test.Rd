@@ -28,8 +28,11 @@ Boot.test(y, kvec, nboot, indicator)
 }
 \references{ Kim, J.H., 2006, Wild Bootstrapping Variance Ratio Tests. Economics Letters, 92, 38-43. }
 \author{ Jae H. Kim }
-\note{ iid bootstrap is useful for M1 and CD1 tests which assume underlying time series to be iid
-       wild bootstrap is useful for M2 and CD2 tests which allow for heteroskedastic time series
+\note{ 
+
+indicator = 1, the p-values for M1 and CD1 tests based on iid bootstrap
+
+indicator = 2, the p-values for M2 and CD2 tests based on wild bootstrap
 }
 \seealso{  }
 \examples{

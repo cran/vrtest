@@ -14,8 +14,7 @@ Joint.Wright(y, kvec)
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }
 }
-\details{
-  }
+
 \value{
   \item{Holding.Period }{holding periods used}
   \item{JR1 }{Joint test based on R1 statistics}
