@@ -3,7 +3,9 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Variance Ratio Plot }
 \description{
-  Plotting unstandadized variance ratios against holding periods
+  Plotting unstandadized variance ratios against holding periods with 95percent confidence band
+
+  Standard errors under iid returns are used.
 }
 \usage{
 VR.plot(y, kvec)

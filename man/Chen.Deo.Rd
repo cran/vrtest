@@ -18,6 +18,7 @@ Chen.Deo(x, kvec)
   \item{Holding.Period }{holding periods used}
   \item{VRsum }{ the sum of (power transformed individual VR - 1)}
   \item{QPn }{QPn statistic}
+  \item{ChiSQ.Quantiles_1_2_5_10_20_percent}{Chi-square critical values}
 }
 \references{ Chen, W. W., and Deo, R.S., 2006, The Variance Ratio Statistic at Large Horizons, Econometric Theory, 22, 206-234.}
 \author{ Jae H. Kim }

@@ -1,14 +1,16 @@
 `VR.plot` <-
 function(y,kvec)
 {
-val <- numeric()
+val <- matrix(NA,nrow=max(kvec),ncol=3)
 for( i in 2:max(kvec))
-{val <- c(val,stat.plot(y,i))}
+{
+tem1 <- stat.plot(y,i)$vr
+tem2 <- stat.plot(y,i)$se
+val[i,] <- c(tem1,1-1.96*tem2,1+1.96*tem2)}
 
-plot(2:max(kvec),val,type="l",col="red",xlab="holding period",ylab="variance ratio",lwd=5)
+matplot(val,type="l",col=c(2,4,4),xlab="holding period",ylab="variance ratio",lwd=c(5,2,2))
 abline(h=1)
 grid(nx=max(kvec),lwd=1)
-title(main = "Variance Ratios")
-return(list(VR=cbind(2:max(kvec),val)))
+title(main = "Variance Ratios and 95% confidence band")
+return(list(VR=cbind(2:max(kvec),val[2:max(kvec),1])))
 }
-
