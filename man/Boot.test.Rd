@@ -8,14 +8,15 @@
   Users can choose between iid bootstrap and wild bootstrap
 }
 \usage{
-Boot.test(y, kvec, nboot, indicator)
+Boot.test(y, kvec, nboot, wild)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return}
   \item{kvec}{ a vector of holding periods }
   \item{nboot}{ the number of bootstrap iterations }
-  \item{indicator}{ 1 for iid bootstrap, 2 for wild bootstrap}
+  \item{wild}{ "No" for iid bootstrap, "Normal" for the wild bootstrap using the standard normal distribution, "Mammen" for the wild bootstrap using Mammen's two point distribution,
+               "Rademacher" for the wild bootstrap using Rademacher's two point distribution}
 }
 
 \value{
@@ -26,17 +27,12 @@ Boot.test(y, kvec, nboot, indicator)
 }
 \references{ Kim, J.H., 2006, Wild Bootstrapping Variance Ratio Tests. Economics Letters, 92, 38-43. }
 \author{ Jae H. Kim }
-\note{ 
 
-indicator = 1, the p-values for M1 and CD1 tests based on iid bootstrap
 
-indicator = 2, the p-values for M2 and CD2 tests based on wild bootstrap
-}
-\seealso{  }
 \examples{
 y <- rnorm(100)
 kvec <- c(2,5,10)
-Boot.test(y,kvec,nboot=1000,indicator=2)
+Boot.test(y,kvec,nboot=1000,wild="Normal")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -1,4 +1,4 @@
-`stat` <-
+`stat.plot` <-
 function(x,k)
 {
     x <- as.matrix(x)
@@ -16,9 +16,6 @@ function(x,k)
     vr2 <- summ/(n*k)
 
     vr <- vr2/vr1
-    tem1 <- 2*(2*k-1)*(k-1)
-    tem2 <- 3*k*n
-
-    vrstat <- (vr-1)/sqrt( tem1/tem2 )
+    return(vr)
 }
 

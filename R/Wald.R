@@ -14,6 +14,6 @@ function(y,kvec)
     w <- n* t(mvr) %*% solve(mat) %*% mvr
     alpha <- c(0.1,0.05,0.01)
     cr <- qchisq(1-alpha,length(kvec))
-    return(list(Holding.Periods=kvec,Wald.stat=as.numeric(w),Critical.Values_10_5_1_percent=cr))
+    return(list(Holding.Period=kvec,Wald.stat=as.numeric(w),Critical.Values_10_5_1_percent=cr))
 }
 
