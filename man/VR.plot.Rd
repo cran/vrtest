@@ -25,9 +25,12 @@ VR.plot(y, kvec)
 
 
 \examples{
-y <- rnorm(100)
+data(exrates)
+y <- exrates$ca                                  # read Canadian exchange rate
+nob <- length(y)
+r <- log(y[2:nob])-log(y[1:(nob-1)])           # log return calculation
 kvec <- c(2,5,10)
-VR.plot(y,kvec)
+VR.plot(r,kvec)
 }
 
 \keyword{  htest  }

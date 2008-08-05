@@ -24,9 +24,12 @@ Chen.Deo(x, kvec)
 \author{ Jae H. Kim }
 
 \examples{
-y <- rnorm(100)
+data(exrates)
+y <- exrates$ca                                # read Canadian exchange rate
+nob <- length(y)
+r <- log(y[2:nob])-log(y[1:(nob-1)])           # log return calculation
 kvec <- c(2,5,10)
-Chen.Deo(y,kvec)
+Chen.Deo(r,kvec)
 }
 \keyword{  htest  }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

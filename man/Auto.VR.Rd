@@ -25,7 +25,10 @@ Auto.VR(y)
 \note{ R code translated from Choi's GAUSS code
 }
 \examples{
-y <- rnorm(100)
-Auto.VR(y)}
+data(exrates)
+y <- exrates$ca                                # read Canadian exchange rate
+nob <- length(y)
+r <- log(y[2:nob])-log(y[1:(nob-1)])           # log return calculation
+Auto.VR(r)
+}
 \keyword{  htest  }
-

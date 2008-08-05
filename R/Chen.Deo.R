@@ -2,7 +2,6 @@
 function(x,kvec)
 {
 
-
 ks <- max(kvec)
 sig2 <- sd(x)^2
 z <- as.matrix(x - mean(x))
@@ -98,3 +97,4 @@ QP <- t(Vp-mubeta) %*% solve(sigbeta) %*% (Vp-mubeta)
 crit <- qchisq(c(0.01,0.02,0.05,0.10,0.20),df=length(kvec),lower.tail=FALSE)
 return(list(Holding.Period=kvec,VRsum=stat1,QPn=QP,ChiSQ.Quantiles_1_2_5_10_20_percent=crit))
 }
+

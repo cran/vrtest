@@ -14,3 +14,4 @@ grid(nx=max(kvec),lwd=1)
 title(main = "Variance Ratios and 95% confidence band")
 return(list(VR=cbind(2:max(kvec),val[2:max(kvec),1])))
 }
+

@@ -30,9 +30,12 @@ Boot.test(y, kvec, nboot, wild)
 
 
 \examples{
-y <- rnorm(100)
+data(exrates)
+y <- exrates$ca                                # read Canadian exchange rate
+nob <- length(y)
+r <- log(y[2:nob])-log(y[1:(nob-1)])           # log return calculation
 kvec <- c(2,5,10)
-Boot.test(y,kvec,nboot=1000,wild="Normal")
+Boot.test(r,kvec,nboot=500,wild="Normal")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

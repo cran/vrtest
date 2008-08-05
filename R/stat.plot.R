@@ -1,5 +1,5 @@
 `stat.plot` <-
-function(x,k)
+function(y,k)
 {
     y <- as.matrix(y)
     n <- nrow(y) 
@@ -23,3 +23,4 @@ function(x,k)
     se <- sqrt( tem1/tem2 )
     return(list(vr=vr,se=se))
 }
+
