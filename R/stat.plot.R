@@ -1,4 +1,4 @@
-`stat.plot` <-
+stat.plot <-
 function(y,k)
 {
     y <- as.matrix(y)

@@ -1,4 +1,4 @@
-`ABEL1Q` <-
+ABEL1Q <-
 function(T,C)
 {
    ALPHA <- 4 * (C[1]^2)/((1-C[1])^4) 

@@ -1,4 +1,4 @@
-`Subsample.test` <-
+Subsample.test <-
 function(y,kvec)
 {
     y <- as.matrix(y)
@@ -27,6 +27,8 @@ function(y,kvec)
    tem[tem == "TRUE"] <- 1
    p[i] <- mean(tem) 
    }   
-return(list(Holding.Period=kvec,Block.length=as.numeric(b1vec),pval=as.numeric(p)))
+   rownames(p) <- paste("bl=",b1vec,sep="")
+   colnames(p) <- c("pval")
+   return(list(Holding.Period=kvec,Pval=p,Block.length=as.numeric(b1vec)))
 }
 

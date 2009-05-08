@@ -1,4 +1,4 @@
-`VR.minus.1` <-
+VR.minus.1 <-
 function(y,kvec)
 {
     coe <- AR1(y)$ALPHA
@@ -40,7 +40,7 @@ vr.auto <- abs(vrsum - 1)
     
     mq <- c(mq,abs(vr-1))
     }  
-
+   # rownames(mq) <- paste("k",kvec,sep=""); colnames(mq) <- "|VR-1|"
 return(list(VR.auto=vr.auto,Holding.Periods=kvec,VR.kvec=mq))
 }
 

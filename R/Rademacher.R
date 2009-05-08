@@ -1,4 +1,4 @@
-`Rademacher` <-
+Rademacher <-
 function(n)
 {
 p <- 0.5

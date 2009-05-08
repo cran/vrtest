@@ -8,7 +8,7 @@
   Users can choose between iid bootstrap and wild bootstrap
 }
 \usage{
-Boot.test(y, kvec, nboot, wild)
+Boot.test(y, kvec, nboot, wild, prob=c(0.025,0.975))
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,6 +17,7 @@ Boot.test(y, kvec, nboot, wild)
   \item{nboot}{ the number of bootstrap iterations }
   \item{wild}{ "No" for iid bootstrap, "Normal" for the wild bootstrap using the standard normal distribution, "Mammen" for the wild bootstrap using Mammen's two point distribution,
                "Rademacher" for the wild bootstrap using Rademacher's two point distribution}
+   \item{prob}{probability limits for confidence intervals}
 }
 
 \value{
@@ -24,6 +25,7 @@ Boot.test(y, kvec, nboot, wild)
   \item{Holding.Period }{holding periods used}
   \item{LM.pval }{Bootstrap p-values for the Lo-MacKinlay tests}
   \item{CD.pval }{Bootstrap p-value for the Chow-Denning test}
+  \item{CI }{Confidence Intervals for Lo-Mackinlay tests from Bootstrap distribution}
 }
 \references{ Kim, J.H., 2006, Wild Bootstrapping Variance Ratio Tests. Economics Letters, 92, 38-43. }
 \author{ Jae H. Kim }

@@ -18,9 +18,7 @@ Lo.Mac(y, kvec)
 
 \value{
   
-  \item{Holding.Periods }{holding periods used}
-  \item{M1.stat }{M1 test statistic}
-  \item{M2.stat }{M2 test statistic}
+  \item{Stats }{ M1 and M2 statistics}
  
 }
 \references{ LO, A. W., and A. C. MACKINLAY (1988): "Stock Market Prices Do Not Follow Random Walks: Evidence from a Simple Specification Test," The Review of Financial Studies, 1, 41-66. }

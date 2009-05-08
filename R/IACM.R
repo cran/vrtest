@@ -1,4 +1,4 @@
-`IACM` <-
+IACM <-
 function(r,uhat)
 {
 T <- length(uhat)

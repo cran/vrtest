@@ -1,4 +1,4 @@
-`covmat` <-
+covmat <-
 function(kvec)
 {
     d <- length(kvec)

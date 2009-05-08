@@ -1,4 +1,4 @@
-`Chen.Deo` <-
+Chen.Deo <-
 function(x,kvec)
 {
 

@@ -1,4 +1,4 @@
-`Wright_stat` <-
+Wright_stat <-
 function(y,k) 
 {
     y <- as.matrix(y)

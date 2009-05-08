@@ -1,4 +1,4 @@
-Lo.Mac <-
+FastLMCD <-
 function(y,kvec)
 {
     y <- as.matrix(y)
@@ -7,12 +7,13 @@ function(y,kvec)
     for (i in 1:length(kvec))
     {
     k <- kvec[i]
-    LM <- LM_stat(y,k)
+    LM <- FastLM_stat(y,k)
     mq[i,] <- cbind(LM$LM1,LM$LM2)
     }
-    VR <- mq
-    rownames(VR) <- paste("k=",kvec,sep="")
-    colnames(VR) <- c("M1","M2")
-    return(list(Stats=VR))
+
+    mv1 <- max(abs(mq[,1]))
+    mv2 <- max(abs(mq[,2]))
+    
+return(list(M1=mq[,1],M2=mq[,2],CD1=mv1,CD2=mv2))
 }
 

@@ -1,4 +1,4 @@
-`Wald1` <-
+Wald1 <-
 function(y,k)
 {
     y <- as.matrix(y)

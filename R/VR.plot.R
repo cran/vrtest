@@ -1,4 +1,4 @@
-`VR.plot` <-
+VR.plot <-
 function(y,kvec)
 {
 val <- matrix(NA,nrow=max(kvec),ncol=3)
@@ -12,6 +12,9 @@ matplot(val,type="l",col=c(2,4,4),xlab="holding period",ylab="variance ratio",lw
 abline(h=1)
 grid(nx=max(kvec),lwd=1)
 title(main = "Variance Ratios and 95% confidence band")
-return(list(VR=cbind(2:max(kvec),val[2:max(kvec),1])))
+VAL <- as.matrix(val[2:max(kvec),1])
+rownames(VAL) <- paste("k=",2:max(kvec),sep="")
+colnames(VAL) <- "VR"
+return(list(VR=VAL))
 }
 

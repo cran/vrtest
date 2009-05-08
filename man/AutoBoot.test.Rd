@@ -6,7 +6,7 @@
   This function returns wild bootstrap test results for the Automatic Variance Ratio Test of Choi (1999)
 }
 \usage{
-AutoBoot.test(y, nboot, wild)
+AutoBoot.test(y, nboot, wild,prob=c(0.025,0.975))
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -14,13 +14,14 @@ AutoBoot.test(y, nboot, wild)
   \item{nboot}{ the number of bootstrap iterations }
   \item{wild}{ "Normal" for the wild bootstrap using the standard normal distribution, "Mammen" for the wild bootstrap using Mammen's two point distribution,
                "Rademacher" for the wild bootstrap using Rademacher's two point distribution}
+  \item{prob}{probability limits for confidence intervals}
 }
 
 \value{
   
   \item{test.stat }{Automatic variance ratio test statistic}
   \item{pval }{Wild Bootstrap p-value for the test}
-  \item{Quantiles }{Quantiles from Bootstrap distribution}
+  \item{CI }{Confidence Intervals from Bootstrap distribution}
 }
 \references{ Kim, J.H., 2009, Automatic Variance Ratio Test under Conditional Heteroskedasticity. Finance Research Letters. Forthecoming }
 \author{ Jae H. Kim }

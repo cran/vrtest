@@ -1,4 +1,4 @@
-`Mammen` <-
+Mammen <-
 function(n)
 {
 p <- (sqrt(5)+1)/(2*sqrt(5))

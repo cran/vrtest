@@ -1,4 +1,4 @@
-`Joint.Wright` <-
+Joint.Wright <-
 function(y,kvec)
 {
     y <- as.matrix(y)

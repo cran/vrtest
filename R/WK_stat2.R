@@ -1,4 +1,4 @@
-`WK_stat2` <-
+WK_stat2 <-
 function(y,kvec)
 {
     y <- as.matrix(y)

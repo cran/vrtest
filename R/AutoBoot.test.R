@@ -1,5 +1,5 @@
-`AutoBoot.test` <- 
-function(y,nboot,wild)
+AutoBoot.test <-
+function(y,nboot,wild,prob=c(0.025,0.975))
 {
     set.seed(12345)
     y <- as.matrix(y)
@@ -13,11 +13,6 @@ function(y,nboot,wild)
         ys <- y * rnorm(nrow(y))
         statmat[i,] <- Auto.VR(ys)
         }
-
-    	tem <- abs(statmat) > abs(LC)
-	tem[tem == "TRUE"] <- 1
-	p <- mean(tem)
-      CI <- quantile(statmat,c(0.005,0.025,0.05,0.90,0.975,0.995))
     }
     
     if (wild == "Mammen")
@@ -27,11 +22,6 @@ function(y,nboot,wild)
         ys <- y * Mammen(nrow(y))
         statmat[i,] <- Auto.VR(ys)
         }
-
-    	tem <- abs(statmat) > abs(LC)
-	tem[tem == "TRUE"] <- 1
-	p <- mean(tem)
-      CI <- quantile(statmat,c(0.005,0.025,0.05,0.90,0.975,0.995))
     }
     
     if (wild == "Rademacher")
@@ -41,12 +31,11 @@ function(y,nboot,wild)
         ys <- y * Rademacher(nrow(y))
         statmat[i,] <- Auto.VR(ys)
         }
-
-    	tem <- abs(statmat) > abs(LC)
-	tem[tem == "TRUE"] <- 1
-	p <- mean(tem)
-      CI <- quantile(statmat,c(0.005,0.025,0.05,0.90,0.975,0.995))
     }
-
-return(list(test.stat=LC,pval=p,Quantiles=CI))
+     tem <- abs(statmat) > abs(LC)
+     tem[tem == "TRUE"] <- 1
+      p <- mean(tem)
+      CI <- quantile(statmat,prob)
+return(list(test.stat=LC,pval=p,CI=CI))
 }
+

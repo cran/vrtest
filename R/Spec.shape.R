@@ -1,4 +1,4 @@
-`Spec.shape` <-
+Spec.shape <-
 function(x)
 {
 iad <- numeric(11)

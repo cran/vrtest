@@ -1,4 +1,4 @@
-`AR1` <-
+AR1 <-
 function(x)
 {
 T <- length(x) -1

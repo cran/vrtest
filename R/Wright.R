@@ -1,4 +1,4 @@
-`Wright` <-
+Wright <-
 function(y,kvec)
 {
     y <- as.matrix(y)
@@ -11,6 +11,9 @@ function(y,kvec)
     W_mat[i,] <- cbind(W$WR1,W$WR2,W$WS1)
     }
 
-return(list(Holding.Period=kvec,R1.test=W_mat[,1],R2.test=W_mat[,2],S1.test=W_mat[,3]))
+    VR <- W_mat
+    rownames(VR) <- paste("k=",kvec,sep="")
+    colnames(VR) <- c("R1","R2","R3")
+    return(list(Stats=VR))
 }
 

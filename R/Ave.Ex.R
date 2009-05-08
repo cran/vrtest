@@ -1,4 +1,4 @@
-`Ave.Ex` <-
+Ave.Ex <-
 function(y)
 {
 T <- length(y)

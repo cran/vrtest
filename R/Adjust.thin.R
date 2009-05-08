@@ -1,4 +1,4 @@
-`Adjust.thin` <-
+Adjust.thin <-
 function(y)
 {
 n <- length(y)

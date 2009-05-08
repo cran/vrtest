@@ -1,4 +1,4 @@
-`JWright.crit` <-
+JWright.crit <-
 function(n,kvec,nit)
 {
     set.seed(12345)

@@ -1,4 +1,4 @@
-`ISIMP` <-
+ISIMP <-
 function(a,b,f)
 {
 

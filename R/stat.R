@@ -1,4 +1,4 @@
-`stat` <-
+stat <-
 function(x,k)
 {
     x <- as.matrix(x)
