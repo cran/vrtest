@@ -23,7 +23,12 @@ AutoBoot.test(y, nboot, wild,prob=c(0.025,0.975))
   \item{pval }{Wild Bootstrap p-value for the test}
   \item{CI }{Confidence Intervals from Bootstrap distribution}
 }
-\references{ Kim, J.H., 2009, Automatic Variance Ratio Test under Conditional Heteroskedasticity. Finance Research Letters. Forthecoming }
+\references{
+
+Kim, J. H., 2009, Automatic Variance Ratio Test under Conditional Heteroskedascity, Finance Research Letters, 6(3), 179-185. 
+
+Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tests for Martingale Difference Hypothesis, Economics Letters, in press.
+}
 \author{ Jae H. Kim }
 
 

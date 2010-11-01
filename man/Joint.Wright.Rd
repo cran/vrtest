@@ -24,7 +24,7 @@ Joint.Wright(y, kvec)
 \references{ 
 Belaire-Franch G, Contreras D. Ranks and signs-based multiple variance ratio tests, Working paper, University of Valencia 2004. 
 
-Kim, J. H. and Shamsuddin, A., Are Asian Stock Markets Efficient? Evidence from New Multiple Variance Ratio Tests, Working Paper, Monash University.
+Kim, J. H. and Shamsuddin, A., 2008, Are Asian Stock Markets Efficient? Evidence from New Multiple Variance Ratio Tests, Journal of Empirical Fiance 15(8), 518-532.
 }
 \author{Jae H. Kim}
 \examples{

@@ -13,7 +13,7 @@ Wright(y, kvec)
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }
 }
-\details{
+\details{Nonparametric tests
  
 }
 \value{
