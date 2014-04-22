@@ -18,4 +18,3 @@ cvm <- ISIMP(0,1,icvm)
 ma <- ISIMP(0,1,ima)
 return(list(AD=ad,CVM=cvm,M=ma))
 }
-

@@ -7,4 +7,3 @@ u <- runif(n,0,1)
 zmat[u > p] <- (sqrt(5)+1)/2
 return(zmat)
 }
-

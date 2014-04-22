@@ -30,4 +30,3 @@ EXLRINF <- log(EXLRINF)
 
 return(list(Ex.LM=EXLMINF,Ex.LR=EXLRINF))
 }
-

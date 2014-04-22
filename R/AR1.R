@@ -11,4 +11,3 @@ SIGMAS <- sum(RE^2) / (T-1)
 STDA <- sqrt( SIGMAS * solve(t(Y_) %*% Y_ ))
 return(list(ALPHA=ALPHA,STDA=STDA))
 }
-

@@ -20,4 +20,3 @@ h <- (b - a)/(2*n)
 sum <- h*sum/3
 return(sum)
 }
-

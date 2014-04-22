@@ -33,6 +33,9 @@ Kim, J. H. and Shamsuddin, A., 2008, Are Asian Stock Markets Efficient? Evidence
 \examples{
 
 kvec <- c(2,5,10)
-JWright.crit(n=100,kvec,nit=10000)  
+JWright.crit(n=100,kvec,nit=50)
+
+# nit is set to 50 for fast execution in the example. 
+# nit=10000 is recommended as in Wright (2000)
 }
 \keyword{  htest  }

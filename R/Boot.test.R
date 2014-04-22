@@ -69,4 +69,3 @@ function(y,kvec,nboot,wild,prob=c(0.025,0.975))
          
 return(list(Holding.Period=kvec,LM.pval=as.numeric(p[1:length(kvec)]),CD.pval=as.numeric(p[length(kvec)+1]),CI=CI))
 }
-

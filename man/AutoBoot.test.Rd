@@ -20,8 +20,10 @@ AutoBoot.test(y, nboot, wild,prob=c(0.025,0.975))
 \value{
   
   \item{test.stat }{Automatic variance ratio test statistic}
+  \item{VRsum }{1+ weighted sum of autocorrelation up to the optimal order}
   \item{pval }{Wild Bootstrap p-value for the test}
-  \item{CI }{Confidence Intervals from Bootstrap distribution}
+  \item{CI }{Confidence Intervals for the test statistic from Bootstrap distribution}
+  \item{CI.VRsum }{Confidence Intervals for the VRsum from Bootstrap distribution}
 }
 \references{
 
@@ -33,7 +35,7 @@ Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tes
 
 
 \examples{                                
-r <- rnorm(100)           # log return
+r <- rnorm(100)          
 AutoBoot.test(r,nboot=500,wild="Normal")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

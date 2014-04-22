@@ -20,4 +20,3 @@ function(y,kvec)
 
 return(list(Holding.Periods=kvec,CD1=mv1,CD2=mv2,Critical.Values_10_5_1_percent=crit))
 }
-

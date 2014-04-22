@@ -26,4 +26,3 @@ R2crit <- quantile(mat[,2],c(0.5*alpha, rev(1-0.5*alpha)) )
 S1crit <- quantile(mat[,3],c(0.5*alpha, rev(1-0.5*alpha)) )
 return(list(Holding.Period=k,R1.crit=R1crit,R2.crit=R2crit,S1.crit=S1crit))    
 }
-

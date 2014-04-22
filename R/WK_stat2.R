@@ -12,4 +12,3 @@ function(y,kvec)
 
 return(max(abs(mq)))
 }
-

@@ -4,13 +4,10 @@ function(y,k)
     y <- as.matrix(y); y1 <- (y-mean(y))^2; n <- nrow(y); m <- mean(y)
     vr1 <- sum( (y-m)^2 )/n
   
-    index <- 1:k
-    summ <- 0
-    for (i in k:n)
-    {
-    summ <- summ + (sum(y[index]) -k*m)^2
-    index <- index+1
-    }
+     # use the filter function
+    flt = filter(y, rep(1,k), method = "convolution")
+    flt = flt[!is.na(flt)]
+    summ = sum((flt - k * m)^2)
 
     vr2 <- summ/(n*k)
     vr <- vr2/vr1
@@ -30,4 +27,3 @@ function(y,k)
     m2 <- sqrt(n)*(vr-1)*((n*summ)^(-.5) )
 return(list(LM1=m1,LM2=m2))
 }
-

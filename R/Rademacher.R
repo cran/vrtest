@@ -7,4 +7,3 @@ u <- runif(n,0,1)
 zmat[u > p] <- -1
 return(zmat)
 }
-

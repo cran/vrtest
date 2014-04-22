@@ -25,6 +25,9 @@ Wright.crit(n, k, nit)
 \author{ Jae H. Kim }
 
 \examples{
-Wright.crit(n=100,k=2,nit=10000)  
+Wright.crit(n=10,k=2,nit=50)  
+
+# nit is set to 50 for fast execution in the example. 
+# nit=10000 is recommended as in Wright (2000)
 }
 \keyword{  htest  }

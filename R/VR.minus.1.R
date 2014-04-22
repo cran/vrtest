@@ -15,7 +15,7 @@ function(y,kvec)
     sum1 <- sum1/(sum(y^2))
     vrsum <- vrsum + 2*kfunc(i/lq)*sum1
     }
-vr.auto <- abs(vrsum - 1)
+vr.auto <- (vrsum - 1)
 
     y <- as.matrix(y)
     n <- nrow(y) 
@@ -27,20 +27,16 @@ vr.auto <- abs(vrsum - 1)
     {
     k <- kvec[i]
     
-    index <- 1:k
-    summ <- 0
-    for (j in k:n)
-    {
-    summ <- summ + (sum(y[index]) -k*m)^2
-    index <- index+1
-    }
+    # use the filter function
+    flt = filter(y, rep(1,k), method = "convolution")
+    flt = flt[!is.na(flt)]
+    summ = sum((flt - k * m)^2)
 
     vr2 <- summ/(n*k)
     vr <- vr2/vr1
     
-    mq <- c(mq,abs(vr-1))
+    mq <- c(mq,(vr-1))
     }  
    # rownames(mq) <- paste("k",kvec,sep=""); colnames(mq) <- "|VR-1|"
 return(list(VR.auto=vr.auto,Holding.Periods=kvec,VR.kvec=mq))
 }
-

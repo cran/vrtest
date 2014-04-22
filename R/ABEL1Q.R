@@ -5,4 +5,3 @@ function(T,C)
    ALPHA <- 1.3221*((ALPHA*T)^.2)
 return(ALPHA)
 }
-

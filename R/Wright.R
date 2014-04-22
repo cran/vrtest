@@ -16,4 +16,3 @@ function(y,kvec)
     colnames(VR) <- c("R1","R2","R3")
     return(list(Stats=VR))
 }
-

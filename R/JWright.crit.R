@@ -33,4 +33,3 @@ R2crit <- quantile(mat[,2],alpha )
 S1crit <- quantile(mat[,3],alpha )
 return(list(Holding.Period=kvec,JR1.crit=R1crit,JR2.crit=R2crit,JS1.crit=S1crit))    
 }
-

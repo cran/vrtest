@@ -17,4 +17,3 @@ function(y,k)
     m2 <- sqrt(n)*(vr-1)*((n*summ)^(-.5) )
 return(list(LM1=m1,LM2=m2))
 }
-

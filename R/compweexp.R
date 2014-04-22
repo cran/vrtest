@@ -1,4 +1,4 @@
-compweexp <- 
+compweexp <-
 function(inf) 
 {
 n <- length(inf)

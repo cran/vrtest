@@ -1,12 +1,12 @@
-\name{Gen.Spec}
-\alias{Gen.Spec}
+\name{Gen.Spec.Test}
+\alias{Gen.Spec.Test}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Generalized spectral Test  }
 \description{
   Generalized spectral Test
 }
 \usage{
-Gen.Spec(y,B)
+Gen.Spec.Test(y,B)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -26,7 +26,7 @@ Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tes
 \author{ Jae H. Kim}
 
 \examples{
-r <- rnorm(100)           # log return calculation
-Gen.Spec(r)
+r <- rnorm(100)        
+Gen.Spec.Test(r)
 }
 \keyword{  htest  }

@@ -17,4 +17,3 @@ function(y,kvec)
     
 return(list(Holding.Period=kvec,JR1=jr1,JR2=jr2,JS1=js1))
 }
-

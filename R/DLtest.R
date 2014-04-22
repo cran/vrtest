@@ -1,4 +1,4 @@
-DLtest <- 
+DLtest <-
 function(y,p)
 {
 ym <- as.matrix(y-mean(y))

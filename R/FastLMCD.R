@@ -16,4 +16,3 @@ function(y,kvec)
     
 return(list(M1=mq[,1],M2=mq[,2],CD1=mv1,CD2=mv2))
 }
-

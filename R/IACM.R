@@ -35,4 +35,3 @@ iacm[2] <- uts^2
 iacm[3] <- abs(uts)
 return(iacm)
 }
-

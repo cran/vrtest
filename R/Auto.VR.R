@@ -12,6 +12,5 @@ function(y)
     vrsum <- vrsum + 2*kfunc(i/lq)*sum1
     }
 vr <- sqrt(T/lq)*(vrsum - 1)/sqrt(2)
-return(vr)
+return(list(stat=vr,sum=vrsum))
 }
-

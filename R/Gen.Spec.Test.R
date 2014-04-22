@@ -1,5 +1,4 @@
-
-Gen.Spec <- 
+Gen.Spec.Test <-
 function(y,B=300)
 {
 set.seed(12345)

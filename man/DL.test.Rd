@@ -29,7 +29,9 @@ Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tes
 \author{ Jae H. Kim}
 
 \examples{
-r <- rnorm(100)           # log return calculation
-DL.test(r)
+r <- rnorm(50)           
+DL.test(r,B=100)
+# B=100 is used for fast execution in the example. 
+# Use a higher number in actual application
 }
 \keyword{  htest  }

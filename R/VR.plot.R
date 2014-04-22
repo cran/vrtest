@@ -17,4 +17,3 @@ rownames(VAL) <- paste("k=",2:max(kvec),sep="")
 colnames(VAL) <- "VR"
 return(list(VR=VAL))
 }
-

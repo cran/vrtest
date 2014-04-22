@@ -1,4 +1,4 @@
-Auto.Q <- 
+Auto.Q <-
 function(y,lags=10)
 {
 data <- y - mean(y)

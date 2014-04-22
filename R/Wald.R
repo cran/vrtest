@@ -16,4 +16,3 @@ function(y,kvec)
     cr <- qchisq(1-alpha,length(kvec))
     return(list(Holding.Period=kvec,Wald.stat=as.numeric(w),Critical.Values_10_5_1_percent=cr))
 }
-

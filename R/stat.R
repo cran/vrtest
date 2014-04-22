@@ -1,4 +1,4 @@
-stat <-
+stat <- 
 function(x,k)
 {
     x <- as.matrix(x)
@@ -21,4 +21,3 @@ function(x,k)
 
     vrstat <- (vr-1)/sqrt( tem1/tem2 )
 }
-

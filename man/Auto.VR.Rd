@@ -16,8 +16,8 @@ Auto.VR(y)
 \value{
  
  
-  \item{AutoVR }{Automatic variance ratio test statistic}
- 
+  \item{stat }{Automatic variance ratio test statistic}
+  \item{sum }{1+ weighted sum of autocorrelation up to the optimal order}
 }
 \references{ Choi, I. 1999, Testing the random walk hypothesis for real exchange rates
               Journal of Applied Econometrics, 14, 293-308.}
@@ -26,9 +26,9 @@ Auto.VR(y)
 }
 \examples{
 data(exrates)
-y <- exrates$ca                                # read Canadian exchange rate
+y <- exrates$ca                           
 nob <- length(y)
-r <- log(y[2:nob])-log(y[1:(nob-1)])           # log return calculation
+r <- log(y[2:nob])-log(y[1:(nob-1)])      
 Auto.VR(r)
 }
 \keyword{  htest  }

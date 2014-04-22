@@ -15,4 +15,3 @@ function(y,k)
     
 return(list(WR1=R1,WR2=R2,WS1=S1))
 }
-

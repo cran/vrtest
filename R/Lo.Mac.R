@@ -14,5 +14,5 @@ function(y,kvec)
     rownames(VR) <- paste("k=",kvec,sep="")
     colnames(VR) <- c("M1","M2")
     return(list(Stats=VR))
+    #return(list(Holding.Periods=kvec,M1.stat=mq[,1],M2.stat=mq[,2]))
 }
-

@@ -1,4 +1,4 @@
-DL.test <- 
+DL.test <-
 function(y,B = 300,p=1)
 {
 y <- as.matrix(y)

@@ -3,7 +3,7 @@
 \alias{vrtest}
 \docType{package}
 \title{
-Variance Ratio tests and other tests for Martigale Difference Hypothesis
+Variance Ratio tests and other tests for Martingale Difference Hypothesis
 }
 \description{
 A collection of variance ratio and spectral shapte tests
@@ -12,9 +12,9 @@ A collection of variance ratio and spectral shapte tests
 \tabular{ll}{
 Package: \tab vrtest\cr
 Type: \tab Package\cr
-Version: \tab 0.95\cr
-Date: \tab 2010-11-01\cr
-License: \tab GPL version 2 or newer\cr
+Version: \tab 0.96\cr
+Date: \tab 2014-04-22\cr
+License: \tab GPL-2 \cr
 }
 }
 \author{

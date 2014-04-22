@@ -29,9 +29,9 @@ Subsample.test(y, kvec)
 
 \examples{
 data(exrates)
-y <- exrates$ca                                # read Canadian exchange rate
+y <- exrates$ca                  
 nob <- length(y)
-r <- log(y[2:nob])-log(y[1:(nob-1)])           # log return calculation
+r <- log(y[2:nob])-log(y[1:(nob-1)])   
 kvec <- c(2,5,10)
 Subsample.test(r,kvec)
 }

@@ -9,4 +9,3 @@ e <- matrix(e[!is.na(e)],nrow=n-1)
 r <- 1/(1-b[1]) * e
 return(r)
 }
-

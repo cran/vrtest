@@ -31,4 +31,3 @@ function(y,kvec)
    colnames(p) <- c("pval")
    return(list(Holding.Period=kvec,Pval=p,Block.length=as.numeric(b1vec)))
 }
-

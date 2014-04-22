@@ -12,4 +12,3 @@ VR[i] <- 1+ 2*sum(w*m[1:(k-1)])
 }
 return(VR)
 }
-
