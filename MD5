@@ -1,5 +1,5 @@
-545eb9e0ac593ea2b65387282100085f *DESCRIPTION
-39b0106520161afc9c09da5cea96d1a3 *NAMESPACE
+76971b56fea5a63c9e0f9897d919dc28 *DESCRIPTION
+6798dc87f3b8aab81cf39ad92499b59d *NAMESPACE
 136c81541cd396f651a6c9f08d4b8385 *R/ABEL1Q.R
 ab4c4dc9b509ca3131bf826fb78a5f2f *R/AR1.R
 069b0a9b79acdbf0978fdaecda9f29f5 *R/Adjust.thin.R
@@ -24,6 +24,7 @@ dbfcc4edfdb377103301af85e957780c *R/LMCD.R
 8250bebda2663144ed564fcffd464ea6 *R/LM_stat.R
 8042ae6650d9ee35321d1998d1a28ab6 *R/Lo.Mac.R
 41e6ddd2570c423e7a2938557128da20 *R/Mammen.R
+867b77f4cfd41de798371aa5cf1b480a *R/Panel.VR.R
 fe23dc24760062410e057cba1182bbed *R/Rademacher.R
 e6ccfa51c42efd0638560e6f63c883ad *R/Spec.shape.R
 7397a653442a8d111cf12866ac310d68 *R/Subsample.test.R
@@ -39,7 +40,7 @@ fb38367329d4a7a3965a39dde09bf18a *R/Wright_stat.R
 261d8870bc9369f8ac18a1f55dbfbbae *R/compweexp.R
 c592cb7674858423a02360e6075db37a *R/covmat.R
 435191ac94111e7222b883375d32b981 *R/kfunc.R
-b761e9e8740d36608657b2e8894d3218 *R/stat.R
+af69a857be8a3429a0330320326b8955 *R/stat.R
 e3897bd9c38af3ac29da07aad294f817 *R/stat.plot.R
 00fd83abead6adb0a16e9f49ba2dc16e *data/exrates.rda
 d4efca6d304c97298ecd1b00d69c7389 *man/Adjust.thin.Rd
@@ -55,12 +56,13 @@ abcd18a2b1f87dd0a891db327b3e26c5 *man/Gen.Spec.Test.Rd
 fceec437696d974c473b7d6c617c001a *man/JWright.crit.Rd
 eb6c6eacb357699accb6419fa15dc71c *man/Joint.Wright.Rd
 4f33c4a3be0d65a0f850c590bc6dd68b *man/Lo.Mac.Rd
+849af2cd3ebc755746c7c82d56247f4b *man/Panel.VR.Rd
 a0aac85e39c19d57d7e41a1e3cea0aff *man/Spec.shape.Rd
 c14deedbb9ae27f96c12b0685889bc6e *man/Subsample.test.Rd
-956a5ac07581df295f6d6636cf105cff *man/VR.minus.1.Rd
+16e3e70cbb5f619c80c1582e1ba62f42 *man/VR.minus.1.Rd
 39ea6ff87f5aba4790bb6fe83a554771 *man/VR.plot.Rd
 20834185054c4eca7d08cfb8d97f9732 *man/Wald.Rd
 3fa3bf798da07350be123264daa66aed *man/Wright.Rd
 0f5bd58ef7fec95d22159548a0011d27 *man/Wright.crit.Rd
 dd4854e442e53c9f10518c267970499f *man/exrates.Rd
-f7ead65d83009ac9eeeadc1e0f4d6ba8 *man/vrtest-package.Rd
+a83f544b7d62f88c52826ccd2c6ec5a6 *man/vrtest-package.Rd

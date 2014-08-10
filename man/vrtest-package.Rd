@@ -12,8 +12,8 @@ A collection of variance ratio and spectral shapte tests
 \tabular{ll}{
 Package: \tab vrtest\cr
 Type: \tab Package\cr
-Version: \tab 0.96\cr
-Date: \tab 2014-04-22\cr
+Version: \tab 0.97\cr
+Date: \tab 2014-08-10\cr
 License: \tab GPL-2 \cr
 }
 }

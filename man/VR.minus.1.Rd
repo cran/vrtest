@@ -16,9 +16,9 @@ VR.minus.1(y, kvec)
 
 \value{
   
-  \item{VR.auto }{ the value of ABS(VR-1) with automatic selection of holding vectors}
+  \item{VR.auto }{ the value of VR-1 with automatic selection of holding vectors}
   \item{Holding.Peiods }{the vector of holding periods}
-  \item{VR.kvec }{the values of ABS(VR-1) for the chosen holding periods}
+  \item{VR.kvec }{the values of VR-1 for the chosen holding periods}
 }
 
 \author{ Jae H. Kim  }
