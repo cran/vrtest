@@ -1,6 +1,5 @@
 \name{Wald}
 \alias{Wald}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Wald Test of Richardson and Smith (1991) }
 \description{
   This function returns the Wald test statistic with critical values
@@ -8,7 +7,6 @@
 \usage{
 Wald(y, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }

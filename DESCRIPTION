@@ -1,14 +1,14 @@
 Package: vrtest
 Type: Package
-Title: Variance Ratio tests and other tests for Martingale Difference
+Title: Variance Ratio Tests and Other Tests for Martingale Difference
         Hypothesis
-Version: 0.97
-Date: 2014-08-10
+Version: 1.0
+Date: 2022-06-29
 Author: Jae H. Kim
-Maintainer: Jae H. Kim <J.Kim@latrobe.edu.au>
-Description: A collection of statistical tests for martingale difference hypothesis
+Maintainer: Jae H. Kim <jaekim8080@gmail.com>
+Description: A  collection of statistical tests for martingale difference hypothesis, including automatic portmanteau test (Escansiano and Lobato, 2009) <doi:10.1016/j.jeconom.2009.03.001> and automatic variance ratio test (Kim, 2009) <doi:10.1016/j.frl.2009.04.003>.
 License: GPL-2
-Packaged: 2014-08-10 10:44:28 UTC; jkim
 NeedsCompilation: no
+Packaged: 2022-07-02 12:28:56 UTC; jh808
 Repository: CRAN
-Date/Publication: 2014-08-10 13:36:11
+Date/Publication: 2022-07-02 15:00:02 UTC

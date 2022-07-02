@@ -1,7 +1,7 @@
 Gen.Spec.Test <-
 function(y,B=300)
 {
-set.seed(12345)
+
 n<- length(y)
 e <- y - mean(y)
 v <- var(e)

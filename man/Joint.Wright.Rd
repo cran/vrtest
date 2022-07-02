@@ -1,6 +1,5 @@
 \name{Joint.Wright}
 \alias{Joint.Wright}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ A Joint Version of Wight's Rank and Sign Test }
 \description{
   This function returns joint or multiple version of Wright's rank and sign tests.
@@ -9,7 +8,6 @@
 \usage{
 Joint.Wright(y, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }

@@ -1,6 +1,5 @@
 \name{Wright}
 \alias{Wright}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Wright's Rank and Sign Tests}
 \description{
   The function returns R1, R2 and S1 tests statistics detailed in Wright (2000)
@@ -8,7 +7,6 @@
 \usage{
 Wright(y, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }

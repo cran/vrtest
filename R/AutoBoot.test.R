@@ -1,7 +1,7 @@
 AutoBoot.test <-
 function(y,nboot,wild,prob=c(0.025,0.975))
 {
-    set.seed(12345)
+    
     y <- as.matrix(y)
     test <- Auto.VR(y); LC=test$stat
     

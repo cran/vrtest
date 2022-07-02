@@ -1,6 +1,5 @@
 \name{Chow.Denning}
 \alias{Chow.Denning}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Chow-Denning Multiple Variance Ratio Tests }
 \description{
   This function returns Chow-Denning test statistics.
@@ -10,7 +9,6 @@
 \usage{
 Chow.Denning(y, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }

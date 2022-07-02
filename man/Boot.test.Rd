@@ -1,6 +1,5 @@
 \name{Boot.test}
 \alias{Boot.test}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Bootstrap Variance Ratio Tests }
 \description{
   This function returns bootstrap p-values of the Lo-MacKilay (1988) and Chow-Denning (1993) tests.
@@ -10,7 +9,6 @@
 \usage{
 Boot.test(y, kvec, nboot, wild, prob=c(0.025,0.975))
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return}
   \item{kvec}{ a vector of holding periods }
@@ -39,7 +37,4 @@ r <- log(y[2:nob])-log(y[1:(nob-1)])
 kvec <- c(2,5,10)
 Boot.test(r,kvec,nboot=500,wild="Normal")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
 \keyword{  htest  }
-%\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

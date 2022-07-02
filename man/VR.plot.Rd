@@ -1,6 +1,5 @@
 \name{VR.plot}
 \alias{VR.plot}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Variance Ratio Plot }
 \description{
   Plotting unstandadized variance ratios against holding periods with 95percent confidence band
@@ -10,7 +9,6 @@
 \usage{
 VR.plot(y, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ financial return}
   \item{kvec}{ holding period vector }

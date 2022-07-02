@@ -1,6 +1,5 @@
 \name{Wright.crit}
 \alias{Wright.crit}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Critical Values for Wright's rank and sign tests }
 \description{
   This function returns critical values of Wright's tests based on the simulation method detailed in Wright (2000)
@@ -8,7 +7,6 @@
 \usage{
 Wright.crit(n, k, nit)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{n}{ sample size }
   \item{k}{ holding period, a scalar }

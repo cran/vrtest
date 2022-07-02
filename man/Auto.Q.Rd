@@ -1,6 +1,6 @@
 \name{Auto.Q}
 \alias{Auto.Q}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{ Automatic Portmanteau Test }
 \description{
   A robustified portmanteau test with automatic lag selection 
@@ -8,7 +8,6 @@
 \usage{
 Auto.Q(y,lags)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ financial return time series }
   \item{lags}{ maximum lag value, the default is 10}
@@ -23,7 +22,7 @@ Auto.Q(y,lags)
 \references{ 
 Escanciano, J.C., Lobato, I.N. 2009a. An automatic portmanteau test for serial correlation. Journal of Econometrics 151, 140-149.
 
-Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tests for Martingale Difference Hypothesis, Economics Letters, in press.
+Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tests for Martingale Difference Hypothesis, Economics Letters, 110(2), 151-154.
 }
 \author{ Jae H. Kim}
 

@@ -1,6 +1,5 @@
 \name{JWright.crit}
 \alias{JWright.crit}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Critical Values for the joint versions of Wright's rank and sign tests  }
 \description{
   This function runs a simulation to calculate the critical values of the joint versions of Wright's tests.
@@ -8,7 +7,6 @@
 \usage{
 JWright.crit(n, kvec, nit)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{n}{ sample size }
   \item{kvec}{ holding period vector }

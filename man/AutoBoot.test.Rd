@@ -1,6 +1,5 @@
 \name{AutoBoot.test}
 \alias{AutoBoot.test}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Wild Bootstrapping of Automatic Variance Ratio Test }
 \description{
   This function returns wild bootstrap test results for the Automatic Variance Ratio Test of Choi (1999)
@@ -8,7 +7,6 @@
 \usage{
 AutoBoot.test(y, nboot, wild,prob=c(0.025,0.975))
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return}
   \item{nboot}{ the number of bootstrap iterations }
@@ -29,8 +27,7 @@ AutoBoot.test(y, nboot, wild,prob=c(0.025,0.975))
 
 Kim, J. H., 2009, Automatic Variance Ratio Test under Conditional Heteroskedascity, Finance Research Letters, 6(3), 179-185. 
 
-Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tests for Martingale Difference Hypothesis, Economics Letters, in press.
-}
+Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tests for Martingale Difference Hypothesis, Economics Letters, 110(2), 151-154.}
 \author{ Jae H. Kim }
 
 
@@ -38,7 +35,5 @@ Charles, A. Darne, O. Kim, J.H. 2011, Small Sample Proeprties of Alternative Tes
 r <- rnorm(100)          
 AutoBoot.test(r,nboot=500,wild="Normal")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
 \keyword{  htest  }
-%\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+

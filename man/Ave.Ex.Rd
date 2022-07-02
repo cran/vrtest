@@ -1,6 +1,5 @@
 \name{Ave.Ex}
 \alias{Ave.Ex}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Average Exponential Tests}
 \description{
   Average exponential tests of Andrews and Ploberger (1996)
@@ -8,7 +7,6 @@
 \usage{
 Ave.Ex(y)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ financial return time series}
 }
@@ -31,7 +29,5 @@ nob <- length(y)
 r <- log(y[2:nob])-log(y[1:(nob-1)])   
 Ave.Ex(r)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
 \keyword{ htest }
 

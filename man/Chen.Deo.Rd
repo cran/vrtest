@@ -1,6 +1,5 @@
 \name{Chen.Deo}
 \alias{Chen.Deo}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Power Transformed Joint Variance Ratio Test }
 \description{
   See equation (15) of Chen and Deo (2006)
@@ -8,7 +7,6 @@
 \usage{
 Chen.Deo(x, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods}
@@ -32,5 +30,3 @@ kvec <- c(2,5,10)
 Chen.Deo(r,kvec)
 }
 \keyword{  htest  }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.

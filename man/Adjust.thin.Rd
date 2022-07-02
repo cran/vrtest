@@ -1,6 +1,6 @@
 \name{Adjust.thin}
 \alias{Adjust.thin}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{ Adjustment for thinly-traded returns }
 \description{
   The adjustment based on AR(1) fitting as proposed by Miller et al. (1994)
@@ -8,7 +8,6 @@
 \usage{
 Adjust.thin(y)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ financial return time series }
 }
@@ -31,6 +30,4 @@ nob <- length(y)
 r <- log(y[2:nob])-log(y[1:(nob-1)]) 
 Adjust.thin(r)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
 \keyword{ htest }

@@ -1,6 +1,5 @@
 \name{Lo.Mac}
 \alias{Lo.Mac}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Lo-MacKinlay variance Ratio Tests }
 \description{
   The function returns M1 and M2 statistics of Lo and MacKinlay (1998).
@@ -10,7 +9,6 @@
 \usage{
 Lo.Mac(y, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }

@@ -1,6 +1,5 @@
 \name{Subsample.test}
 \alias{Subsample.test}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Subsampling test of Whang and Kim (2003) }
 \description{
   The function returns the p-values of the subsampling test.
@@ -8,7 +7,6 @@
 \usage{
 Subsample.test(y, kvec)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{ a vector of time series, typically  financial return }
   \item{kvec}{ a vector of holding periods }

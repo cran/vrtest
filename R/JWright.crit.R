@@ -1,7 +1,6 @@
 JWright.crit <-
 function(n,kvec,nit)
 {
-    set.seed(12345)
     mat <- matrix(NA,nrow=nit,ncol=3)
     for (i in 1:nit)
     {

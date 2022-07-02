@@ -1,6 +1,5 @@
 \name{Spec.shape}
 \alias{Spec.shape}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Spectral shape tests for random walk}
 \description{
   Spectral Shape tests proposed by Durlauf (1991) and Choi (1999)
@@ -8,7 +7,6 @@
 \usage{
 Spec.shape(x)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{ financial return time series  }
 }
@@ -34,7 +32,5 @@ r <- log(y[2:nob])-log(y[1:(nob-1)])
 Spec.shape(r)
 }
 
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
 \keyword{ htest }
 
