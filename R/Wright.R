@@ -13,6 +13,6 @@ function(y,kvec)
 
     VR <- W_mat
     rownames(VR) <- paste("k=",kvec,sep="")
-    colnames(VR) <- c("R1","R2","R3")
+    colnames(VR) <- c("R1","R2","S1")
     return(list(Stats=VR))
 }
