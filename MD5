@@ -1,4 +1,4 @@
-ec55a9228aee59c8f546daaaae5c16b0 *DESCRIPTION
+df4ddb253e1a916f684f60d3b84584ff *DESCRIPTION
 3d115380911e5a086db854bb2d54d7f5 *NAMESPACE
 136c81541cd396f651a6c9f08d4b8385 *R/ABEL1Q.R
 ab4c4dc9b509ca3131bf826fb78a5f2f *R/AR1.R
@@ -65,4 +65,4 @@ fbc94b8df67e101341eefda252ba17b4 *man/Spec.shape.Rd
 cba4f8d90fa21f790a6473df9c222b2d *man/Wright.Rd
 f80cb546cb6487957cce0d9db0c96986 *man/Wright.crit.Rd
 dd4854e442e53c9f10518c267970499f *man/exrates.Rd
-a83f544b7d62f88c52826ccd2c6ec5a6 *man/vrtest-package.Rd
+d167e2364b6ed11eba014c4171c0afa9 *man/vrtest-package.Rd
